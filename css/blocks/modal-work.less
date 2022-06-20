@@ -1,0 +1,101 @@
+// main: ../style.less
+
+.modal-work {
+  display: flex;
+}
+
+.modal-work__preview {
+  width: 65%;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-work__photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.modal-work__content {
+  width: 35%;
+  padding: 3.4rem 6.6rem 1rem 1.73rem;
+  position: relative;
+}
+
+.modal-work__header {
+  margin-bottom: 2.2rem;
+}
+
+.modal-work__title {
+  margin-bottom: .2rem;
+
+  font-size: 2.12rem;
+  color: @black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal-work__info {
+  font-size: 1.2rem;
+  color: @gray;
+  text-transform: uppercase;
+}
+
+.modal-work__info-divider {
+  margin: 0 1rem;
+}
+
+.modal-work__client {
+  margin-bottom: 2.2rem;
+}
+
+.modal-work__client-title {
+  margin-bottom: .2rem;
+
+  font-size: 1.06rem;
+  color: @black;
+  font-weight: 700;
+}
+
+.modal-work__client-company {
+  font-size: .94rem;
+  font-style: italic;
+  color: @gray;
+}
+
+.modal-work__text {
+  margin-bottom: 8.66rem;
+
+  font-size: .8rem;
+  line-height: 2;
+  color: @gray;
+  font-weight: 300;
+}
+
+.modal-work__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.8rem 1rem;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.modal-work__btn {
+  padding: 0;
+
+  background: none;
+  border: 0;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: .94rem;
+  color: @black;
+  text-transform: uppercase;
+}
